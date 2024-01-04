@@ -1,0 +1,10 @@
+# Dependencies
+
+node_modules
+.history
+.metals
+.vscode
+
+# Generated files
+.psci
+output
