@@ -1,0 +1,16 @@
+version: '3.1'
+
+services:
+  meilisearch:
+    container_name: meilisearch
+    image: getmeili/meilisearch:latest
+    ports:
+      - target: 7700
+        published: 7700
+        protocol: tcp
+        mode: host
+    env_file:
+      - .env
+    volumes:
+      - ${MEILI_DB_PATH}:/data.ms
+    restart: unless-stopped
