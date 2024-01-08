@@ -3,6 +3,10 @@
 
 ## Run meilisearch with docker:
 
+```js 
+cp .env.example .env
+```
+
 ```bash
 docker-compose up
 ```
