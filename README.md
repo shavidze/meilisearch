@@ -19,7 +19,7 @@ npm run start
 
 ## Full list example of meilisearch configuration options:
 
-```js
+```yml
 
       - MEILI_CONFIG_FILE_PATH=/path/to/your/config.toml
       - MEILI_DB_PATH=/data.ms
