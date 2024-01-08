@@ -14,4 +14,4 @@ services:
     volumes:
       - ${MEILI_DB_PATH}:/data.ms
       - ${MEILI_SNAPSHOT_DIR}:/snapshots
-    restart: unless-stopped
+    restart: always
